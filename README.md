@@ -2,9 +2,6 @@
 
 **Academic Year:** 2024-2025  
 **Course:** Advanced Asset Management & Sustainable Finance  
-**Authors:** Flavio Salvatore Boccia, Ludovico Costa
-
----
 
 ## Overview
 
@@ -14,8 +11,6 @@ This repository contains the complete solution to the final project for the cour
 2. **Sustainable Investment and Climate-Constrained Portfolios**
 
 The goal was to apply quantitative methods to construct and analyze investment portfolios under different risk, return, and sustainability constraints.
-
----
 
 ## Exercise 1: Portfolio Optimization
 
@@ -35,8 +30,6 @@ The goal was to apply quantitative methods to construct and analyze investment p
 Tools used:
 - `cvxopt` for quadratic programming
 - Matrix algebra and numerical optimization
-
----
 
 ## Exercise 2: Sustainable Portfolio Construction
 
@@ -64,8 +57,6 @@ Tools used:
 - `cvxpy` for flexible quadratic programming
 - Custom Python scripts for metric evolution, visualization, and diagnostics
 
----
-
 ## Key Findings
 
 - The **Sharpe ratio** remains constant along the positive segment of the efficient frontier with a risk-free asset, validating the **Two-Fund Separation Theorem**.
@@ -73,22 +64,16 @@ Tools used:
 - Carbon constraints can be enforced **without significantly increasing tracking error** for short horizons.
 - **Multi-constraint optimization** leads to more sustainable portfolios but increases deviation from the benchmark.
 
----
-
 ## References
 
 - Markowitz, H. (1952). *Portfolio Selection*.
 - Sharpe, W. F. (1964). *Capital Asset Prices: A Theory of Market Equilibrium*.
 - Modern Portfolio Theory & Sustainable Investing literature
 
----
-
 ## Authors
 
 - **Flavio Salvatore Boccia**  
 - **Ludovico Costa**
-
----
 
 ## License
 
